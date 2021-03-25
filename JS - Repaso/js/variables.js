@@ -1,6 +1,6 @@
 // crear variables
-
-var aprendiendo;
-aprendiendo = 'Javascript';
-
+var aprendiendo = true;
+aprendiendo = false;
+aprendiendo = 20;
+aprendiendo = 'Ivan';
 console.log(aprendiendo);
