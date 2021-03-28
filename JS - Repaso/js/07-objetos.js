@@ -7,7 +7,20 @@ const persona = {
     edad: 500
 }
 console.log(persona);
-console.log(persona.nombre);
-console.log(persona.profesion);
-console.log(persona.edad);
-console.log(persona['edad']);
+ //Object constructor
+
+ function Tarea(nombre, urgencia){
+     this.nombre = nombre;
+     this.urgencia = urgencia;
+ }
+
+ // Crear una nueva Tarea
+ const tarea1 = new Tarea('Aprender JavaScript','Urgente');
+ const tarea2 = new Tarea('Prepara cafe','Urgente');
+ const tarea3 = new Tarea('Pasear al perro','Media');
+ const tarea4 = new Tarea('Conocer a mis suegros','Baja');
+console.log(tarea1);
+console.log(tarea2);
+console.log(tarea3);
+console.log(tarea4);
+// La ventaja del object constructor nos permite crear multiples objetos
