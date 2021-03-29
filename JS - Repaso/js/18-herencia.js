@@ -23,10 +23,10 @@ let tarea4 = new Tarea('Conocer a mis suegros','Baja');
 
 
 
-console.log(tarea1.mostrar());
-console.log(tarea2.mostrar());
-console.log(tarea3.mostrar());
-console.log(tarea4.mostrar())
+// console.log(tarea1.mostrar());
+// console.log(tarea2.mostrar());
+// console.log(tarea3.mostrar());
+// console.log(tarea4.mostrar())
 
 class ComprasPendientes extends Tarea{
     constructor (nombre,prioridad,cantidad){
@@ -47,5 +47,5 @@ class ComprasPendientes extends Tarea{
 
 let compra1 = new ComprasPendientes('Jabon','Uregente',3);
 
-compra1.mostrar()
-console.log(compra1.hola());
+// compra1.mostrar()
+// console.log(compra1.hola());
