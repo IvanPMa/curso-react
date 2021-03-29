@@ -1,3 +1,6 @@
+//Parte de modulos
+const nombreTarea = 'Pasear al perro';
+
 // Escribir clases
 
 class Tarea {
