@@ -1,5 +1,5 @@
 //Parte de modulos
-const nombreTarea = 'Pasear al perro';
+ export const nombreTarea = 'Pasear al perro';
 
 // Escribir clases
 
