@@ -1,4 +1,4 @@
-import { nombreTarea, crearTarea, tareaCompletada } from './18-herencia.js'; 
+// import { nombreTarea, crearTarea, tareaCompletada } from './18-herencia.js'; 
 
 /* 
 Importando por default solo se puede tener un export  por archivo y JS 
@@ -8,10 +8,20 @@ import nombreTarea from './18-herencia.js';
 */
 
 
-console.log(nombreTarea);
+// console.log(nombreTarea);
 
-const tarea1 = crearTarea('Pasear al perro', 'Media');
+// const tarea1 = crearTarea('Pasear al perro', 'Media');
 
+// console.log(tarea1);
+
+// tareaCompletada();
+
+
+// Exportando clases
+
+import Tarea from './18-herencia.js';
+
+const tarea1 = new Tarea('Aprender Javascript','Urgente');
 console.log(tarea1);
 
-tareaCompletada();
+tarea1.mostrar();
