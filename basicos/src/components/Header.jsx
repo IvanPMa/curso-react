@@ -15,7 +15,7 @@ function Header(){
     // En el return es lo que se va a ver en pantalla
     return(
         // <h1>Desde el header {edad}, {mensaje}</h1>
-        <h1 id='encabezado' className= 'encabezado'>Tienda virtual</h1>
+        <h1  className= 'encabezado'>Tienda virtual</h1>
         );
 }
 
