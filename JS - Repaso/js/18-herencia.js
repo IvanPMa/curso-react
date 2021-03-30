@@ -9,7 +9,14 @@ const tarea = 'tarea'
 //     tarea: tarea
 // }
 
+// Exportar una funcion
+export const crearTarea = (tarea, urgencia)=>{
+    return `La tarea ${tarea} tiene una urgencia de ${urgencia} `
+} 
 
+export const tareaCompletada = () =>{
+    console.log('La tarea se completo')
+}
 
 // Escribir clases
 
