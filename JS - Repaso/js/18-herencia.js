@@ -1,5 +1,15 @@
 //Parte de modulos
- export const nombreTarea = 'Pasear al perro';
+
+// export  const nombreTarea = 'Pasear al perro';
+export const nombreTarea = 'Pasear al perro';
+const tarea = 'tarea'
+// export default nombreTarea;
+// export default{
+//     nombre: nombreTarea,
+//     tarea: tarea
+// }
+
+
 
 // Escribir clases
 
