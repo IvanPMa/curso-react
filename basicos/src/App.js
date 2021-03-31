@@ -13,6 +13,9 @@ function App() {
     { id: 4,nombre: 'Camisa Angular', precio: 20},
   ]);
 
+  //State para un carrito de compras
+  const [ carrito, agregarProducto] = useState ([]);
+
   //Obtener la fecha
   const fecha = new Date().getFullYear();
 
@@ -25,7 +28,10 @@ function App() {
         {productos.map(producto =>(
           <Producto 
             key = {producto.id}
-            producto = { producto}
+            producto = { producto }
+            productos = { productos}S
+            carrito = { carrito }
+            agregarProducto = { agregarProducto }
           />
         ))}
         <Footer
